@@ -1,0 +1,23 @@
+# Version Control
+.git
+.gitignore
+
+# Build Artifacts and Dependencies
+**/[Bb]in/
+**/[Oo]bj/
+
+# Environment Variables
+**/[Pp]roperties/
+**/\*.user
+
+# IDEs
+**/.vs/
+**/.vscode/
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Other
+**/*.md
+Dockerfile
