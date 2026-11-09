@@ -1,0 +1,15 @@
+# Build Artifacts and Dependencies
+**/[Bb]in/
+**/[Oo]bj/
+
+# Environment Variables
+**/[Pp]roperties/
+**/appsettings.*
+**/*.user
+
+# IDEs
+**/.vs/
+
+# System Files
+.DS_Store
+Thumbs.db
