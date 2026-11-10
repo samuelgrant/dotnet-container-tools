@@ -35,7 +35,7 @@ jobs:
         uses: docker/metadata-action@v6
         with:
           # Automatically converts the repository path to lowercase to satisfy GHCR requirements
-          images: ghcr.io/${{ github.repository }}
+          images: ghcr.io/${{ github.repository }}-healthcheck
           tags: |
             # If triggered by a branch push, tag with branch name
             type=ref,event=branch
